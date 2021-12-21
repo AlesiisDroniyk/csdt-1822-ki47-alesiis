@@ -1,2 +1,3 @@
 # csdt-1822-ki47-alesiis
-practical tasks and coursework from “computer systems design theory”
+Practical tasks and coursework from “computer systems design theory”
+Pong Game
