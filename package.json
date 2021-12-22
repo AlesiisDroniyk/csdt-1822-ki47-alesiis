@@ -1,0 +1,23 @@
+{
+  "name": "csdt-1822-ki47-alesiis",
+  "version": "1.0.0",
+  "description": "Practical tasks and coursework from “computer systems design theory”\r Pong Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlesiisDroniyk/csdt-1822-ki47-alesiis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlesiisDroniyk/csdt-1822-ki47-alesiis/issues"
+  },
+  "homepage": "https://github.com/AlesiisDroniyk/csdt-1822-ki47-alesiis#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
