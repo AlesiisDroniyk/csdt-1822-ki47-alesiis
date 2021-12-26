@@ -13,3 +13,6 @@ Pong Game
 - you don't need to build a project
 - just open index.html in your browser
 - version 0.8
+
+___
+### New Release - taskPong_v1p1_WW21517
