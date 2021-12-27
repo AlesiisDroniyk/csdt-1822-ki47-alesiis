@@ -25,7 +25,6 @@ document.addEventListener('keydown', (e) => {
         gameState = gameState == 'start' ? 'play' : 'start';
         if (gameState == 'play') {
             message.innerHTML = 'Game Started';
-            axios.get('http://localhost:3000/play')
             message.style.left = 42 + 'vw';
             requestAnimationFrame(() => {
                 dx = Math.floor(Math.random() * 4) + 3;
@@ -37,7 +36,6 @@ document.addEventListener('keydown', (e) => {
         }
     }
     if (gameState == 'play') {
-        axios.get('http://localhost:3000/play')
         if (e.key == 'w') {
             paddle_1.style.top =
                 Math.max(
@@ -109,7 +107,7 @@ function moveBall(dx, dy, dxd, dyd) {
             score_1.innerHTML = +score_1.innerHTML + 1;
         }
         gameState = 'start';
-        axios.get('http://localhost:3000/start')
+
         ball_coord = initial_ball_coord;
         ball.style = initial_ball.style;
         message.innerHTML = 'Press Enter to Play Pong';

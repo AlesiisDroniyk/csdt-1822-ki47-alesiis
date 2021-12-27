@@ -19,10 +19,5 @@
   "homepage": "https://github.com/AlesiisDroniyk/csdt-1822-ki47-alesiis#readme",
   "devDependencies": {
     "jest": "^27.4.5"
-  },
-  "dependencies": {
-    "body-parser": "^1.19.1",
-    "cors": "^2.8.5",
-    "express": "^4.17.2"
   }
 }
