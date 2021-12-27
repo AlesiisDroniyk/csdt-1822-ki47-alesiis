@@ -12,4 +12,12 @@ Pong Game
 
 - you don't need to build a project
 - just open index.html in your browser
-- version 0.8
+- version 0.9
+___
+- Created new play mode
+  
+   Play modes: Man vs Man, AI vs Man
+-   Added menu
+- Created tag 
+  
+  
