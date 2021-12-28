@@ -1,4 +1,5 @@
 const express = require('express')
+const pool = require('../database.config')
 const bodyParser = require('body-parser')
 const fs = require('fs')
 const cors = require("cors");
@@ -18,21 +19,12 @@ app.use("/",router);
 
 
 router.get('/start', (req, res) => {
-    const data = {
-        gameState: "start"
-    }
-
-    const dataJSON = JSON.stringify(data);
-    fs.writeFileSync('./data/index.json', dataJSON);
+    pool.query('insert into Pong(state) values("Start")')
 });
 
 router.get('/play', (req, res) => {
-    const data = {
-        gameState: "play"
-    }
 
-    const dataJSON = JSON.stringify(data);
-    fs.writeFileSync('./data/index.json', dataJSON);
+    pool.query('insert into Pong(state) values("Play")')
 });
 
 app.listen(3000,() => {
